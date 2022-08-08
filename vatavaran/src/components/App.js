@@ -6,6 +6,8 @@ import Search from "./Search";
 function App() {
     const [ city, setCity ] = useState('');
     const [ data, setData ] = useState({});
+    
+    //code before
 
   const baseUrl = "https://api.openweathermap.org/data/2.5";
   const apiKey = "77128009939dbe4d4eb999963758759e";
